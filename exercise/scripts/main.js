@@ -14,6 +14,8 @@ window.addEventListener('DOMContentLoaded', function() {
       // collection of selected cards and apply the correct CSS class.
       if (selectedCards.length < 2) {
         card.classList.add('is-selected');
+        //Add Card to Selected card list
+        selectedCards.push(card);
       }
 
       // If we have selected two cards, see if they match.
