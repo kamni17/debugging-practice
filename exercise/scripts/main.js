@@ -43,7 +43,8 @@ window.addEventListener('DOMContentLoaded', function() {
       }
 
       // If we've matched all the cards, display a message.
-      if (matchedCards.length > cards.length) {
+      // Defect 4 Message issue
+      if (matchedCards.length >= cards.length) {
         alert('You matched all the cards, nice job!');
       }
     });
